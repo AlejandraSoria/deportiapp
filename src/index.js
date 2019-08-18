@@ -1,8 +1,10 @@
 import React from 'react'
 import { render } from 'react-dom'
 // import serviceWorker from './serviceWorker'
+
 // Material 
-import Reboot from 'material-ui/Reboot'
+// import Reboot from 'material-ui/Reboot'
+
 // Estilos
 import './index.css'
 
@@ -15,11 +17,11 @@ import Calendario from './components/calendario/Calendario'
 const Root = () => {
     return (
         <div>
-            <Reboot />
+            {/* <Reboot />  */}
             <Header />
             <div className="contenedor">
                 <Liga />
-                <Calendario />
+                <Calendario /> 
             </div>
         </div>
     )
@@ -27,5 +29,5 @@ const Root = () => {
 
 
 
-render(<HolaMundo nombre="Sergio" edad="25" tipo="descripcion"/>, document.querySelector('#root'))
+render(<Root />, document.querySelector('#root'))
 
