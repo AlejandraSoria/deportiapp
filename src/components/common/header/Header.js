@@ -16,8 +16,12 @@ class Header extends Component {
                     <div className="logo"></div>
                     <Typography variant="title" color="inherit" className="flex">
                     </Typography>
-                    <Button color="inherit">Equipos</Button>
-                    <Button color="inherit">Calendarios</Button>
+                    <Button color="inherit">
+                        <a href="/liga">Equipos</a>
+                    </Button>
+                    <Button color="inherit">
+                        <a href="/calendario">Calendarios</a>
+                    </Button>
                 </Toolbar>
 
             </div>

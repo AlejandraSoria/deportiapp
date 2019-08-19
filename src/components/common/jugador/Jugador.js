@@ -13,11 +13,11 @@ class Jugador extends Component{
                 <Card className="card">
                     <CardMedia
                         className="media"
-                        image={ this.props.foto }
+                        image= {this.props.foto}
                         title="Felinos"
                     />
                     <CardContent>
-                        <Typography variant="h2" component="elementType" align="center" color="primary">
+                        <Typography variant="inherit" component="elementType" align="center" color="primary">
                             {this.props.nombre}
                         </Typography>
                     </CardContent>    
